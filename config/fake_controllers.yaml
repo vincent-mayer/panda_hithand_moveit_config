@@ -1,0 +1,43 @@
+controller_list:
+  - name: fake_panda_arm_controller
+    joints:
+      - panda_joint1
+      - panda_joint2
+      - panda_joint3
+      - panda_joint4
+      - panda_joint5
+      - panda_joint6
+      - panda_joint7
+  - name: fake_Right_Thumb_controller
+    joints:
+      - Right_Thumb_1
+      - Right_Thumb_2
+      - Right_Thumb_3
+      - Right_Thumb_4
+  - name: fake_Right_Index_controller
+    joints:
+      - Right_Index_1
+      - Right_Index_2
+      - Right_Index_3
+      - Right_Index_4
+  - name: fake_Right_Middle_controller
+    joints:
+      - Right_Middle_1
+      - Right_Middle_2
+      - Right_Middle_3
+      - Right_Middle_4
+  - name: fake_RIght_Ring_controller
+    joints:
+      - Right_Ring_1
+      - Right_Ring_2
+      - Right_Ring_3
+      - Right_Ring_4
+  - name: fake_RIght_Little_controller
+    joints:
+      - Right_Little_1
+      - Right_Little_2
+      - Right_Little_3
+      - Right_Little_4
+initial:  # Define initial robot poses.
+  - group: panda_arm
+    pose: init_pose_arm
