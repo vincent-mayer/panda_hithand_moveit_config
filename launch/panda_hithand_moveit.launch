@@ -20,9 +20,12 @@
   </include>
 
   <!-- Run Rviz and load the default config to see the state of the move_group node -->
-  <include file="$(find lbr4_allegro_moveit_config)/launch/moveit_rviz.launch">
-    <arg name="config" value="true"/>
+  <include file="$(find panda_hithand_moveit_config)/launch/moveit_rviz.launch">
     <arg name="debug" value="$(arg debug)"/>
   </include>
+
+  <!--<node name="demo_scene_loader" pkg="franka_moveit" type="create_demo_planning_scene.py"
+	respawn="false" output="screen" />
+  <include file="$(find gazebo2rviz)/launch/gazebo2rviz.launch"/>-->
 
 </launch>

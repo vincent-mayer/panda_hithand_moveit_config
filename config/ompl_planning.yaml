@@ -146,6 +146,8 @@ panda_arm:
     - LazyPRMstar
     - SPARS
     - SPARStwo
+  projection_evaluator: joints(panda_joint1,panda_joint2)
+  longest_valid_segment_fraction: 0.005
 Right_Thumb:
   default_planner_config: None
   planner_configs:
