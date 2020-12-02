@@ -5,8 +5,10 @@ Panels:
     Property Tree Widget:
       Expanded:
         - /MotionPlanning1
-      Splitter Ratio: 0.74256
-    Tree Height: 664
+        - /TF1
+        - /TF1/Frames1
+      Splitter Ratio: 0.742560029
+    Tree Height: 405
   - Class: rviz/Help
     Name: Help
   - Class: rviz/Views
@@ -14,6 +16,9 @@ Panels:
       - /Current View1
     Name: Views
     Splitter Ratio: 0.5
+
+Toolbars:
+  toolButtonStyle: 2
 Visualization Manager:
   Class: ""
   Displays:

@@ -8,4 +8,4 @@ moveit_setup_assistant_config:
   CONFIG:
     author_name: VIncent Mayer
     author_email: vincent.mayer@agile-robots.com
-    generated_timestamp: 1606220946
+    generated_timestamp: 1606902887

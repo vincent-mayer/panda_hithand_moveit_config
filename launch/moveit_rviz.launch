@@ -14,3 +14,5 @@
   </node>
 
 </launch>
+
+<!-- CHANGE THE RVIZ CONFIG TO BE LOADED IN THIS FILE; IMPORTANTE!!-->
